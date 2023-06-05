@@ -12,6 +12,12 @@ body {
     height: 100vh;
 }
 
+.gradient-background {
+    background: linear-gradient(180deg, #353535, #000000, #3f3f3f);
+    background-size: 200% 200%;
+    animation: gradient-animation 5s ease infinite;
+}
+
 /* Header */
 
 .nav-masthead .nav-link {
@@ -31,4 +37,64 @@ body {
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
+}
+
+#bonsai11 {
+    width: 25rem;
+    height: 40rem;
+    opacity: .4;
+    position: absolute;
+    right: 0%;
+    z-index: -1;
+}
+
+#bonsai22 {
+    width: 30rem;
+    height: 50rem;
+    opacity: .4;
+    position: absolute;
+    top: 20%;
+    z-index: -1;
+}
+
+@media (max-width: 850px) and (max-height: 1280px) {
+    #bonsai11 {
+        width: 20rem;
+        height: 25rem;
+        opacity: .4;
+        position: absolute;
+        right: 0%;
+        top: 5%;
+        z-index: -1;
+    }
+    
+    #bonsai22 {
+        width: 20rem;
+        height: 30rem;
+        opacity: .4;
+        position: absolute;
+        top: 50%;
+        z-index: -1;
+    } 
+}
+
+@media (max-width: 390px) and (max-height: 896px) {
+    #bonsai11 {
+        width: 10rem;
+        height: 15rem;
+        opacity: .4;
+        position: absolute;
+        right: 0%;
+        top: 15%;
+        z-index: -1;
+    }
+    
+    #bonsai22 {
+        width: 10rem;
+        height: 15rem;
+        opacity: .4;
+        position: absolute;
+        top: 60%;
+        z-index: -1;
+    } 
 }
