@@ -12,6 +12,7 @@ body {
     height: 100vh;
 }
 
+
 .gradient-background {
     background: linear-gradient(180deg, #353535, #000000, #3f3f3f);
     background-size: 200% 200%;
